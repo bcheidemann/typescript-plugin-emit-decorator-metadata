@@ -1,7 +1,7 @@
-declare class Dependency {};
-declare function inject(...args: any): any;
+declare class Dependency {}
+declare function inject(...args: any): any
 
-@inject
 class Application {
+  @inject
   private readonly dependency!: Dependency;
 }
