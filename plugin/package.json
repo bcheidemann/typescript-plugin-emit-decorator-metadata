@@ -1,0 +1,20 @@
+{
+  "name": "typescript-plugin-emit-decorator-metadata",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "ts-patch install",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Ben Hediemann <ben@heidemann.dev>",
+  "license": "ISC",
+  "exports": {
+    ".": "./dist/plugin.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "ts-patch": "^3.0.0"
+  }
+}

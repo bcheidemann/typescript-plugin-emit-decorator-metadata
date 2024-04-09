@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Ben Hediemann <ben@heidemann.dev>",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4"
+  }
+}
